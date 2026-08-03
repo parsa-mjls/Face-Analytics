@@ -34,10 +34,3 @@ db/
  └── Jane_Smith/
      └── img1.jpg
 
-💻 Quick Start
-1. Installation
-Clone the repository and install the required dependencies:
-
-git clone [https://github.com/YOUR_USERNAME/Face-Analytics.git](https://github.com/YOUR_USERNAME/Face-Analytics.git)
-cd Face-Analytics
-pip install -r requirements.txt
