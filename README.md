@@ -1,7 +1,3 @@
-# Face-Analytics
-Real-Time Face Recognition &amp; Age Estimation Pipeline
-
-
 # 👁️ Face-Analytics: Real-Time Recognition & Age Estimation
 
 A high-performance, modular Computer Vision pipeline designed for **Real-Time Face Detection, Identity Recognition, and Age Estimation**. This repository serves as a portfolio demonstration of a production-ready edge analytics system.
@@ -33,4 +29,30 @@ db/
  │   └── img2.jpg
  └── Jane_Smith/
      └── img1.jpg
+💻 Quick Start
+1. Installation
+Clone the repository and install the required dependencies:
 
+Bash
+git clone [https://github.com/YOUR_USERNAME/Face-Analytics.git](https://github.com/YOUR_USERNAME/Face-Analytics.git)
+cd Face-Analytics
+pip install -r requirements.txt
+2. Inference & Execution
+The pipeline is entirely CLI-driven using argparse.
+
+Run on Webcam:
+
+Bash
+python inference.py --source 0
+Run on a Video File or RTSP Stream:
+
+Bash
+python inference.py --source "data/sample_video.mp4"
+Run on a Static Image (High-speed imread mode):
+
+Bash
+python inference.py --source "data/test_image.jpg"
+Advanced Usage (Custom Threshold & Database):
+
+Bash
+python inference.py --source 0 --db "path/to/custom_db" --threshold 0.35
