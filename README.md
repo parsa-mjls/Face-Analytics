@@ -40,7 +40,7 @@ db/
 Clone the repository and install the required dependencies.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Face-Analytics.git
+git clone https://github.com/parsa-mjls/Face-Analytics.git
 cd Face-Analytics
 pip install -r requirements.txt
 ```
